@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const Fortnite = require('fortnite');
-const ftnApi = new Fortnite('365cbe23-843d-499d-bc48-55024b024dbb');
+const ftnApi = new Fortnite(process.env.fortnite);
 const currentSeason = '5';
 
 module.exports.run = async (bot, message, args) =>{
