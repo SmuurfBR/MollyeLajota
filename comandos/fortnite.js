@@ -3,7 +3,7 @@ const Fortnite = require('fortnite');
 const ftnApi = new Fortnite(process.env.fortnite);
 const currentSeason = '5';
 
-module.exports.run = async (bot, message, args) =>{
+exports.run = async (bot, message, args) =>{
   let username = args[0];
   let platform = args[1] || 'pc';
   let mode = 'life';
