@@ -44,6 +44,7 @@
     "snekfetch": "^4.0.4",
     "string-similarity": "^1.2.0",
     "superagent": "^3.8.3",
+    "tar.gz": "^1.0.7",
     "uws": "^10.148.1",
     "weather-js": "^2.0.0",
     "xmlhttprequest": "^1.8.0",
